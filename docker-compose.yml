@@ -6,7 +6,7 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - PORTFOLIO_API_CORS_ORIGINS=http://localhost:3000,http://127.0.0.1:3000,http://frontend:3000
+      - PORTFOLIO_API_CORS_ORIGINS=http://localhost:3000,http://127.0.0.1:3000
     restart: unless-stopped
 
   frontend:
